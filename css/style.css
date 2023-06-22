@@ -1,0 +1,39 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50% 0;
+}
+.container h2{
+  margin: 0px 0 30px;
+  font-size: 3rem;
+}
+.container .controls button{
+  padding: .5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+#inc{
+  color: white;
+  background-color: rgba(25, 224, 47, 1);
+}
+#dis{
+  color: white;
+  background-color: #E01919
+}
+#rest{
+  background-color: #EEE;
+}
+@media (min-width: 768){
+  .container{
+    transform: scale(3)
+  }
+}
